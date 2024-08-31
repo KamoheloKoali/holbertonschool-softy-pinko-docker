@@ -5,4 +5,4 @@ FROM ubuntu:latest
 RUN apt-get update && apt-get upgrade -y
 
 # Set the command to echo "Hello, World!" when the container runs
-CMD echo "Hello, World!"
+CMD ["echo", "Hello, World!"]
